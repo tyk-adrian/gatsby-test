@@ -19,7 +19,7 @@ const MenuContainer = styled.ul`
 `
 
 const MenuItem = styled.li`
-  &:not(:first-child) {
+  &:not(:first-of-type) {
     margin-left: ${({ theme }) => theme.spacing(2)};
   }
 `
